@@ -1,6 +1,16 @@
 # CIE-IVI
 IVI Project done under CIE
 
+1. Had problems running repo on a system with Python 2.7
+
+	use the command:<br>
+		python3 /home/cie/bin/repo ...<br>
+		python3 /home/cie/bin/repo init ...<br>
+	instead of:<br>
+		repo init ...<br>
+
+  
+
 ## Log:- 
 #### Week 1:-
 - The host machine, crucial for our development environment, was equipped with Python 2.7, rendering the 'repo sync' command ineffective.
