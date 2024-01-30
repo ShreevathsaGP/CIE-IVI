@@ -11,7 +11,9 @@ Problems Faced:
    
 3. Repo sync is failing<br>
 	repo sync ran successfully until 93% completion.<br>
+ 
 	Following errors occured thereafter:<br>
+ 	The complete error log can be inspected here: [repo_sync_error_log.txt](repo_sync_error_log.txt)<br>
 	
  ![image description](Screenshot%20from%202024-01-29%2015-49-07.png)
  ![image description](Screenshot%20from%202024-01-29%2015-49-15.png)
