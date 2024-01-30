@@ -10,7 +10,12 @@ Problems Faced:
 		repo init ...<br>
    
 3. Repo sync is failing<br>
-	repo sync was successful until 93% completion was hi.<br>
-	The following were the errors:<br>
+	repo sync ran successfully until 93% completion.<br>
+	Following errors occured thereafter:<br>
 	
  ![image description](Screenshot%20from%202024-01-29%2015-49-07.png)
+ ![image description](Screenshot%20from%202024-01-29%2015-49-15.png)
+ ![image description](Screenshot%20from%202024-01-29%2015-49-22.png)
+ ![image description](Screenshot%20from%202024-01-29%2015-49-30.png)
+ ![image description](Screenshot%20from%202024-01-29%2015-49-40.png)
+ 
