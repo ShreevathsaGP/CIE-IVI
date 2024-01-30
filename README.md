@@ -10,4 +10,6 @@ Problems Faced:
       repo init ...
    
 3. Repo sync is failing
-    Solution is pending
+   repo sync was successful until 93% completion was hit.
+   The following were the errors:
+   ![image description](blob/main/Screenshot%20from%202024-01-29%2015-49-07.png)
