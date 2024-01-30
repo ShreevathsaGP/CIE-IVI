@@ -5,7 +5,7 @@ Problems Faced:
 1. Had problems running repo on a system with Python 2.7
     
 	use the command:<br>
-		python3 /home/cie/bin/repo ...<br>
+		python3 /home/cie/bin/repo init ...<br>
 	instead of:<br>
 		repo init ...<br>
    
