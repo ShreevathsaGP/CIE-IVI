@@ -31,4 +31,12 @@ IVI Project done under CIE
  ![image description](Screenshot%20from%202024-01-29%2015-49-22.png)
  ![image description](Screenshot%20from%202024-01-29%2015-49-30.png)
  ![image description](Screenshot%20from%202024-01-29%2015-49-40.png)
+
+## Alternative ways of installing Android Automotive:
+
+Downloading the SNAP AUTOMOTIVE image in Android Studio
+
+Refer the link Github link below:
+
+```https://github.com/snappautomotive/README```
  
