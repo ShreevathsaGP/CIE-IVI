@@ -2,8 +2,9 @@
 IVI Project done under CIE
 
 ## Log:- 
-#### DAY 1:-
-On the first day of our project, we encountered a significant hurdle that threatened to impede our progress. The host machine, crucial for our development environment, was equipped with Python 2.7, rendering the 'repo sync' command ineffective. Faced with this obstacle, our team delved into the documentation to identify a solution. After thorough research and collaboration, we pinpointed the necessity to update the Python version to 3.8. Despite the initial setback, our team's collective effort and commitment prevailed as we successfully upgraded the Python version, ultimately enabling the 'repo sync' command to function seamlessly. This experience underscored the importance of adaptability and problem-solving skills, setting the tone for a collaborative and resilient project journey.
+#### Week 1:-
+- The host machine, crucial for our development environment, was equipped with Python 2.7, rendering the 'repo sync' command ineffective.
+-  Faced with this obstacle, our team delved into the documentation to identify a solution. After thorough research and collaboration, we pinpointed the necessity to update the Python version to 3.8. Despite the initial setback, our team's collective effort and commitment prevailed as we successfully upgraded the Python version, ultimately enabling the 'repo sync' command to function seamlessly. This experience underscored the importance of adaptability and problem-solving skills, setting the tone for a collaborative and resilient project journey.
 
 
  
