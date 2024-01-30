@@ -9,6 +9,12 @@ IVI Project done under CIE
 	instead of:<br>
 		repo init ...<br>
 
+2. Repo sync is failing<br>
+	repo sync ran successfully until 93% completion.<br>
+
+	Following errors occured thereafter:<br>
+ 	The complete error log can be inspected here: [repo_sync_error_log.txt](repo_sync_error_log.txt)<br>
+
   
 
 ## Log:- 
