@@ -3,13 +3,15 @@ IVI Project done under CIE
 
 1. Had problems running repo on a system with Python 2.7
 
-	use the command:<br>
+	use the command:
+
 		```python3 /home/cie/bin/repo ...<br>
 		python3 /home/cie/bin/repo init ...<br>```
-	instead of:<br>
+
+	instead of:
 		```repo init ...<br>```
 
-2. Repo sync is failing<br>
+3. Repo sync is failing<br>
 	repo sync ran successfully until 93% completion.<br>
 
 	Following errors occured thereafter:<br>
