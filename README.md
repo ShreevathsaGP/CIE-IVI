@@ -3,12 +3,15 @@ IVI Project done under CIE
 
 1. Had problems running repo on a system with Python 2.7
 
-	use the command:
-		```python3 /home/cie/bin/repo ...
-		python3 /home/cie/bin/repo init ...```
+Use the command:
+```python3 /home/cie/bin/repo ...
+		python3 /home/cie/bin/repo init ...
+```
+Instead of:
 
-	instead of:
-		```repo init ...```
+```
+repo init ...
+```
 
 3. Repo sync is failing<br>
 	repo sync ran successfully until 93% completion.<br>
@@ -38,5 +41,7 @@ Downloading the SNAP AUTOMOTIVE image in Android Studio
 
 Refer the link Github link below:
 
-```https://github.com/snappautomotive/README```
+```sh
+https://github.com/snappautomotive/README
+```
  
