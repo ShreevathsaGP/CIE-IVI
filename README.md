@@ -44,6 +44,11 @@ The complete error log can be inspected here: [repo_sync_error_log.txt](repo_syn
 
 # Alternative ways of installing Android Automotive on Host Machine:
 
+The Host system used for building has Specifications as follows:
+- Intel® Core™ i7-12800HX Processor
+- 32GB RAM
+- 1TB SSD
+
 Downloading the SNAP AUTOMOTIVE image in Android Studio
 
 Refer the link Github link below:
