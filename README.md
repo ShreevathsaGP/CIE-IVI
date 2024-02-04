@@ -61,10 +61,30 @@ IVI Project done under CIE
   	- Text interaction
   	- Some level of autonomous driving ability
 
+### Highlights:
+1. Attmepted to get automotive emulator running using Snapp Automotive (UNSUCCESSFUL):
+	Used the following guide: [SnappAutomotive README](https://github.com/snappautomotive/README)<br>
 
-Refer the link Github link below:
+	Encountered the following error:<br>
+		![image](https://github.com/ShreevathsaGP/CIE-IVI/assets/59483990/74484be5-ad88-4cc8-ad2c-2bafc645f12e)<br>
+		Emulator did not get past this booting stage even after several attempts and repeated tinkering with settings.<br>
 
-```sh
-https://github.com/snappautomotive/README
-```
- 
+  	Decided to move on from Snapp Automotive to Volvo and Polestar SDK's, due to:<br>
+   		- The error mentioned above
+   		- Snapp Automotive would restrict our development
+   		- Regular build's are more upto date and can be troubleshooted better
+
+2. Attempted to get automotive emulator running using Polestar and Volvo (UNSUCCESSFUL):
+	Explored the following SDK update sites:<br>
+	- [Volvo System Images](https://developer.volvocars.com/sdk/volvo-sys-img.xml)
+ 	- [Polestar System Images](https://developer.polestar.com/sdk/polestar2-sys-img.xml)
+	
+
+4. Got automotive emulator working using regular build (SUCCESSFUL):
+	Used the following guide: [AAOS Hello World: How to Build Your First App for Android Automotive OS](https://grapeup.com/blog/how-to-build-your-first-app-for-android-automotive-os/)<br>
+
+	Learnt about and explored [androidx car package](https://developer.android.com/reference/androidx/car/app/package-summary)<br>
+
+ 	Finally got the automotive emulator running on host machine:
+	
+	   
