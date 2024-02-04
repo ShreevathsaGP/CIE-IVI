@@ -78,17 +78,16 @@ IVI Project done under CIE
 	Explored the following SDK update sites:<br>
 	- [Volvo System Images](https://developer.volvocars.com/sdk/volvo-sys-img.xml)
  	- [Polestar System Images](https://developer.polestar.com/sdk/polestar2-sys-img.xml)
-	
 
-4. Got automotive emulator working using regular build (SUCCESSFUL):
+4. Got automotive emulator working using regular build (SUCCESSFUL):<br>
 	Used the following guide: [AAOS Hello World: How to Build Your First App for Android Automotive OS](https://grapeup.com/blog/how-to-build-your-first-app-for-android-automotive-os/)<br>
 
 	Learnt about and explored [androidx car package](https://developer.android.com/reference/androidx/car/app/package-summary)<br>
 
- 	Finally got the automotive emulator running on host machine:
+ 	Finally got the automotive emulator running on host machine:<br>
 	![android_emulator_showcase](https://github.com/ShreevathsaGP/CIE-IVI/assets/59483990/e96e3180-2a89-4c90-9bcd-748e4f5358cd)
 		
-5. Built a sample interactive applicaions for AAOS:
+5. Built a sample interactive application for AAOS:<br>
 	Used the following guide: [AAOS Hello World: How to Build Your First App for Android Automotive OS](https://grapeup.com/blog/how-to-build-your-first-app-for-android-automotive-os/)<br>
 
  	Had to heavily reconfigure build.gradle and AndroidManifest due to above tutorial being outdated<br>
@@ -101,43 +100,37 @@ IVI Project done under CIE
 	        super(carContext);
 	    }
 	
-	    @NonNull
-	    @Override
+	    @NonNull; @Override
 	    public Template onGetTemplate() {
 	        Row row = new Row.Builder().setTitle("Greetings from CIE - IVI!!").build();
-	        Action action = new Action.Builder().setOnClickListener(() -> CarToast.makeText(getCarContext(), "Hello!", CarToast.LENGTH_SHORT).show()).setTitle("Say hi!").build();
+	        Action action = new Action.Builder().setOnClickListener(() -> CarToast.makeText(getCarContext(), "Hello!", CarToast.LENGTH_SHORT).show()).setTitle("Say Hi!").build();
 	        ActionStrip actionStrip = new ActionStrip.Builder().addAction(action).build();
 	        return new PaneTemplate.Builder(new Pane.Builder().addRow(row).build()).setActionStrip(actionStrip).setHeaderAction(Action.APP_ICON).build();
 	    }
 	}
  	```
  	```java
-	  public class GrapeAppService extends CarAppService {
-	
+	public class GrapeAppService extends CarAppService {
 	    public GrapeAppService() {}
-	
-	    @NonNull
-	    @Override
+	    @NonNull; @Override
 	    public HostValidator createHostValidator() {
 	        return HostValidator.ALLOW_ALL_HOSTS_VALIDATOR;
 	    }
-	
-	    @NonNull
-	    @Override
+	    @NonNull; @Override
 	    public Session onCreateSession() {
 	        return new Session() {
-	            @Override
-	            @NonNull
-	            public Screen onCreateScreen(@Nullable Intent intent) {
-	                return new GrapeAppScreen(getCarContext());
-	            }
+	            @Override; @NonNull
+	            public Screen onCreateScreen(@Nullable Intent intent) { return new GrapeAppScreen(getCarContext()); }
 	        };
 	    }
 	}
   	```
 
-   	Completed the application that:
+   	Completed the application that:<br>
    	- Starts interaction with a message
-   	- Continues interaction when clicking on "Say HI" button
-   	
-    	![Screenshot 2024-02-04 at 1 17 45 PM](https://github.com/ShreevathsaGP/CIE-IVI/assets/59483990/1e7504af-6b64-44c9-bcee-84606c6432ae)<br>
+   	- Continues interaction when clicking on "Say Hi!" button
+
+	![Screenshot 2024-02-04 at 1 17 45 PM](https://github.com/ShreevathsaGP/CIE-IVI/assets/59483990/1e7504af-6b64-44c9-bcee-84606c6432ae)<br>
+
+### Outcomes & Learnings:
+UPDATE THIS!
