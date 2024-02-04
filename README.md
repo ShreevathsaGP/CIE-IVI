@@ -60,7 +60,7 @@
   	- Some level of autonomous driving ability
 
 ### Highlights:
-1. Attmepted to get automotive emulator running using Snapp Automotive (UNSUCCESSFUL):
+1. Attmpted to get automotive emulator running using Snapp Automotive (UNSUCCESSFUL):
 	Used the following guide: [SnappAutomotive README](https://github.com/snappautomotive/README)<br>
 
 	Encountered the following error:<br>
@@ -77,7 +77,18 @@
 	- [Volvo System Images](https://developer.volvocars.com/sdk/volvo-sys-img.xml)
  	- [Polestar System Images](https://developer.polestar.com/sdk/polestar2-sys-img.xml)
 
-4. Got automotive emulator working using regular build (SUCCESSFUL):<br>
+	Encountered the following problems with Volvo Image:<br>
+	- P1
+ 	- P2
+	
+ 	Encountered the following problems with Volvo Image:<br>
+	- P1
+ 	- P2
+
+   	INSERT IMAGE HERE<br>
+    	Decided to move onto regular build 
+
+5. Got automotive emulator working using regular build (SUCCESSFUL):<br>
 	Used the following guide: [AAOS Hello World: How to Build Your First App for Android Automotive OS](https://grapeup.com/blog/how-to-build-your-first-app-for-android-automotive-os/)<br>
 
 	Learnt about and explored [androidx car package](https://developer.android.com/reference/androidx/car/app/package-summary)<br>
@@ -85,7 +96,7 @@
  	Finally got the automotive emulator running on host machine:<br>
 	![android_emulator_showcase](https://github.com/ShreevathsaGP/CIE-IVI/assets/59483990/e96e3180-2a89-4c90-9bcd-748e4f5358cd)
 		
-5. Built a sample interactive application for AAOS:<br>
+6. Built a sample interactive application for AAOS:<br>
 	Used the following guide: [AAOS Hello World: How to Build Your First App for Android Automotive OS](https://grapeup.com/blog/how-to-build-your-first-app-for-android-automotive-os/)<br>
 
  	Had to heavily reconfigure build.gradle and AndroidManifest due to above tutorial being outdated<br>
