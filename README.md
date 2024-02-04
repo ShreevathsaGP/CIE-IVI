@@ -78,15 +78,19 @@
  	- [Polestar System Images](https://developer.polestar.com/sdk/polestar2-sys-img.xml)
 
 	Encountered the following problems with Volvo Image:<br>
-	- P1
- 	- P2
+	- System Image did not load
+ 	- AVD had did not run 	
+ 	
 	
- 	Encountered the following problems with Volvo Image:<br>
-	- P1
- 	- P2
+ 	Encountered the following problems with Polestar Image:<br>
+	- AVD did not run
 
-   	INSERT IMAGE HERE<br>
-    	Decided to move onto regular build 
+   ### Decided to move onto regular build.<br>
+   	When initially Andorid Automotive was used and when either *"NO ACTIVITY"* or *"MEDIA"* was selected in the activity window, only the
+   	Tablet with Android OS used to load and not the Android Automotive OS
+   	![image](https://github.com/ShreevathsaGP/CIE-IVI/assets/40132560/c105b507-358b-45d5-81c7-c506618e0929)
+
+	Hence Concluded that using a regular AAOS build with custom programs is a better option.
 
 5. Got automotive emulator working using regular build (SUCCESSFUL):<br>
 	Used the following guide: [AAOS Hello World: How to Build Your First App for Android Automotive OS](https://grapeup.com/blog/how-to-build-your-first-app-for-android-automotive-os/)<br>
