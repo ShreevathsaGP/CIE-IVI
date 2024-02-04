@@ -51,8 +51,15 @@ IVI Project done under CIE
 	- Snapp Automotive
  	- Volvo Build
   	- Polestar Build
-  	- Without pre-built images
-- Despite the initial setback, we successfully upgraded the Python version, ultimately enabling the 'repo sync' command to function seamlessly. 
+  	- Regular build
+- Finally got automotive emulator running with regular Android Automotive OS (ie. without Snapp Automotive or Volvo Build)
+- Built a simple interactive application
+- Started ideating on application ideas that test core features of IVI like:
+	- Camera integration
+	- Voice interaction
+ 	- Navigation
+  	- Text interaction
+  	- Some level of autonomous driving ability
 
 
 Refer the link Github link below:
