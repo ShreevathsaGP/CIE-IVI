@@ -1,7 +1,5 @@
-# CIE-IVI
-IVI Project done under CIE
-
 # Building applications for IVI systems using Android Automotive OS  
+`Done under CIE (PES University)`
 
 ## Week 1 : 
 - The host machine, crucial for our development environment, was equipped with Python 2.7, rendering the 'repo sync' command ineffective.
