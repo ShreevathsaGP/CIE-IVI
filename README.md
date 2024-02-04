@@ -66,15 +66,15 @@ IVI Project done under CIE
 	Used the following guide: [SnappAutomotive README](https://github.com/snappautomotive/README)<br>
 
 	Encountered the following error:<br>
-		![image](https://github.com/ShreevathsaGP/CIE-IVI/assets/59483990/74484be5-ad88-4cc8-ad2c-2bafc645f12e)<br>
-		Emulator did not get past this booting stage even after several attempts and repeated tinkering with settings.<br>
+		Emulator did not get past booting stage even after several attempts and repeated tinkering with settings.<br>
+   		![image](https://github.com/ShreevathsaGP/CIE-IVI/assets/59483990/82f939ee-0ce5-4872-b9ac-db2459b8227f)<br>
+   		
+  	Decided to move on from Snapp Automotive to Volvo and Polestar SDK's, due to: <br>
+	- The error mentioned above
+	- Snapp Automotive would restrict our development
+	- Regular build's are more upto date and can be troubleshooted better
 
-  	Decided to move on from Snapp Automotive to Volvo and Polestar SDK's, due to:<br>
-   		- The error mentioned above
-   		- Snapp Automotive would restrict our development
-   		- Regular build's are more upto date and can be troubleshooted better
-
-2. Attempted to get automotive emulator running using Polestar and Volvo (UNSUCCESSFUL):
+3. Attempted to get automotive emulator running using Polestar and Volvo (UNSUCCESSFUL):<br>
 	Explored the following SDK update sites:<br>
 	- [Volvo System Images](https://developer.volvocars.com/sdk/volvo-sys-img.xml)
  	- [Polestar System Images](https://developer.polestar.com/sdk/polestar2-sys-img.xml)
