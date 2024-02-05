@@ -7,7 +7,7 @@
 - Despite the initial setback, we successfully upgraded the Python version, ultimately enabling the 'repo sync' command to function seamlessly. 
 
 ### Highlights:
-1. Had problems running repo on a system with Python 2.7
+1. Had problems running repo on a system with Python 2.7<br>
 	Use the command:
 	```sh
 	python3 /home/cie/bin/repo ...
