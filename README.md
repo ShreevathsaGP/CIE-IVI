@@ -153,8 +153,8 @@ UPDATE THIS!
 ## Week n : 
 - Agenda:-
 
-	-Try making arrangements of installing PuTTY for RasPI to get the error log file and make the required changes in the build
-	-Media playback through USB should be readable
+	-Try making arrangements of installing PuTTY for RasPI to get the error log file and make the required changes in the build <br>
+	-Media playback through USB should be readable<br>
 	-Bluetooth call connectivity to be looked into
 
 - Work Done:-
