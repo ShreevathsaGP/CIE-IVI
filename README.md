@@ -147,3 +147,40 @@
 
 ### Outcomes & Learnings:
 UPDATE THIS!
+
+
+
+## Week n : 
+- Agenda:-
+
+	-Try making arrangements of installing PuTTY for RasPI to get the error log file and make the required changes in the build
+	-Media playback through USB should be readable
+	-Bluetooth call connectivity to be looked into
+
+- Work Done:-
+  	
+   	- Installed ADB on my development machine (MACBOOK).
+  	-  ```brew install --cask android-platform-tools```.
+  	-  Connected the Target device to Wifi and got the IP Address using the settings menu.
+  	- Used ``` adb connect <ip_address of the target device> ``` to connect to Pi.
+  	-  <img width="492" alt="image" src="https://github.com/ShreevathsaGP/CIE-IVI/assets/40132560/9e5a2cab-b5da-4892-9dee-df4ec9b0acd5">
+   	- Used ``` adb bugreport ``` to create a bug report.
+   	- Used Logcat to get the Log Output of the device live.
+   	- Stored the logcat output in a textfile called logcat.txt
+   	- ![image](https://github.com/ShreevathsaGP/CIE-IVI/assets/40132560/64507351-0286-48d3-afb1-e49a6679cb8f)
+   	- ^ is the output of logcat in terminal
+   	- <img width="1512" alt="image" src="https://github.com/ShreevathsaGP/CIE-IVI/assets/40132560/caf44513-8019-4749-8701-9798b2c4d72e">
+    	- output stored in a textfile.
+
+- Observations:-
+  	- Phone Contacts getting synced slowly, exact reason for the slow sync - yet to figure out.
+  	- TEXT messages recieved by the phone is displayed while it is connected to the pi via bt.
+  	- Possible reasons for the failure of calling - USB Mic/Speaker setup needed.
+  	- Phone when connected to pi via USB, gets scanned and read, but device instantly crashes when accessing files in pi.
+  	- Target recognising USB as an audio device -- need to debug.
+    
+
+
+   
+
+
